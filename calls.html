@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calls.css">
+    <title>Atendimentos</title>
+</head>
+<body>
+    <h1>Registrar call</h1>
+    <form id="create-call-form">
+        <input class="create-call-input" type="text" name="service_type" placeholder="Serviço" />
+        <input class="create-call-input" type="text" name="animal" placeholder="Animal" />
+        <input class="create-call-input" type="text" name="scheduled_data" placeholder="Data Agendada" />
+        <button id="create-call-button" type="submit">Registrar call</button>
+    </form>
+    <table id="call-list-container">
+        <tr>
+            <th>Serviço</th>
+            <th>Animal</th>
+            <th>Data Agendada</th>
+        </tr>
+    </table>
+    <script src="calls.js"></script>
+</body>
+</html>
